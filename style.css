@@ -9,15 +9,11 @@ body {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
-
 }
 
-
 .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
@@ -27,7 +23,6 @@ body {
     font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
     font-weight:bold; 
     opacity:.8;  
-  
 }
 
 .navbar-brand {
@@ -47,29 +42,27 @@ body {
 }
 
 #row1{
-    margin-top:120px;
+    margin-top:90px;
     margin-bottom:100px;
 }
 
 #profilePic {
-   margin-bottom:-50px;
+   margin-bottom:-60px;
    
 }
 
-.aboutme {
-    background: rgba(0, 0, 0, 0.7);
+.aboutMe {
+    background: rgba(0, 0, 0, 0.8);
     color:#fff;
     font-size:15px;
     font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
     padding: 10px;
-    border: 2px solid grey;
+    border: 1px solid grey;
 
 }
 
 #row2 {
-
     margin-bottom:100px;
-
 }
 
 
@@ -82,9 +75,25 @@ footer {
     line-height: 0px;
     background-color: black;
     color: #fff;
-    padding-top: 37px;
+    padding-top: 26px;
     margin-top:10px;
+    
     opacity: .8;
 
-   
 }
+
+  .footer a {
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    transition: all .5s ease;
+  }
+
+  .footer a:first-child {
+    border-left: 1px solid #70726F;
+  }
+  
+  .footer a:hover {
+    color: yellow;
+  }
