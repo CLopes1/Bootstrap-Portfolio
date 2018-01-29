@@ -31,7 +31,7 @@ body {
     margin-left:50px;
 }
 
-.nav {
+#rightNav {
     margin-right: 50px;
 }
 
@@ -136,6 +136,20 @@ footer {
 
   /* Media Queries for responsiveness*/
 
-  
+  @media screen and (max-width:452px) {
+
+    #rightNav {
+        margin-right: -71px;
+        margin-left: -19px;
+    }
+
+    #profilePic {
+        margin-top: 50px;
+    }
+      
+
+}
+
+
     
   
